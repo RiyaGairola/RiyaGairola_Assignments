@@ -1,0 +1,280 @@
+$custom-white: #ffffff;
+$custom-gray: #D6D6D6;
+$custom-red: #d9272d;
+
+.ul1 {
+	display: flex;
+	margin: 0;
+	list-style: none;
+	padding: 0px;
+	display: flex;
+	background-color: $custom-gray;
+	height: 50px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 13px;
+	text-align: center;
+
+	&_imgg {
+		background: url("Frontier.png");
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		height: 128px;
+		width: 239px;
+		display: flex;
+	}
+
+	&_headernav1 {
+		align-items: center;
+		list-style-type: none;
+		display: flex;
+		padding-left: 30%;
+		padding-bottom: 25%;
+		font-family: 'Open Sans', sans-serif;
+
+		&_li1 {
+			padding: 15px 15px 10px 15px;
+			border: 10px;
+			margin-left: 6%;
+			margin-right: 4px;
+		}
+
+		&_li2 {
+			padding: 15px 15px 10px 15px;
+			border: 10px;
+			background-color: black;
+			color: white;
+			margin-right: 4px;
+		}
+
+		&_li3 {
+			border: 10px;
+			padding: 15px 15px 10px 15px;
+		}
+
+		&_li4 {
+			padding: 15px 15px 10px 15px;
+			border: 10px;
+		}
+
+		&_li5 {
+			padding: 15px 15px 10px 15px;
+			border: 10px;
+			color: $custom-red;
+		}
+
+		&_li6 {
+			padding: 15px 15px 10px 15px;
+
+			& span {
+				color: white;
+				background-color: $custom-red;
+				padding: 5px 6px 5px 6px;
+			}
+		}
+
+		&_li7 {
+			padding: 10px;
+			border: 10px;
+			padding-left: 25px;
+		}
+
+		&_li1:hover {
+			background: black;
+			color: white;
+		}
+
+		&_li3:hover {
+			background: black;
+			color: white;
+		}
+
+		&_li4:hover {
+			color: $custom-red;
+		}
+	}
+}
+
+.ul2 {
+	display: flex;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 13px;
+	text-align: center;
+	padding-left: 275px;
+	padding-top: 10px;
+	list-style-type: none;
+
+	&_li11 {
+		padding: 10px 20px;
+		padding-left: 30px;
+		border: 10px;
+		padding-right: 35px;
+		text-align: center;
+	}
+
+	&_li22 {
+		padding: 10px 20px;
+		padding-left: 30px;
+		border: 10px;
+		padding-right: 35px;
+		text-align: center;
+	}
+
+	&_li33 {
+		padding: 10px 20px;
+		padding-left: 30px;
+		border: 10px;
+		padding-right: 35px;
+		text-align: center;
+	}
+
+	&_li44 {
+		padding: 10px 20px;
+		padding-left: 30px;
+		border: 10px;
+		padding-right: 35px;
+		text-align: center;
+	}
+
+	&_li55 {
+		padding: 10px 20px;
+		padding-left: 30px;
+		border: 10px;
+		padding-right: 35px;
+		text-align: center;
+	}
+
+	&_li66 {
+		width: 124px;
+		padding: 10px 20px;
+		background-color: #D9272D;
+		max-width: 150px;
+		text-align: center;
+		color: $custom-white;
+	}
+}
+
+.footer {
+	display: block;
+
+	&_FootrLine {
+		position: relative;
+		font-family: 'Open Sans', sans-serif;
+		background-color: $custom-red;
+		height: 60px;
+		color: $custom-white;
+		align-items: center;
+		font-size: 25px;
+		font-weight: 100;
+		letter-spacing: 2px;
+		word-spacing: 5px;
+		padding-top: 25px;
+		padding-left: 420px;
+	}
+
+	&_picfoot_nev {
+		position: relative;
+		width: 88%;
+		background-color: #57585b;
+		padding-left: 170px;
+
+		&_picfoot {
+			background: url("footerdes1.png");
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+			height: 128px;
+			width: 239px;
+			display: flex;
+		}
+	}
+
+	&_LastList {
+		display: flex;
+		margin: 0;
+		list-style-type: none;
+		background-color: #57585b;
+		padding-left: 170px;
+		color: #aeb0b2;
+		border-bottom-width: 20px;
+		-webkit-column-gap: 40px;
+		font-weight: 100;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 12px;
+
+		&_ull {
+			margin-right: 0;
+			list-style-type: none;
+
+			&_l1 {
+				font-weight: 200;
+				color: $custom-white;
+				font-family: 'Open Sans', sans-serif;
+			}
+
+			&_l2 {
+				font-weight: 200;
+				color: $custom-white;
+				font-family: 'Open Sans', sans-serif;
+			}
+
+			&_l3 {
+				font-weight: 200;
+				color: $custom-white;
+				font-family: 'Open Sans', sans-serif;
+			}
+
+			&_l4 {
+				font-weight: 200;
+				color: $custom-white;
+				font-family: 'Open Sans', sans-serif;
+			}
+
+			&_l5 {
+				font-weight: 200;
+				color: $custom-white;
+				font-family: 'Open Sans', sans-serif;
+			}
+		}
+	}
+
+	&_lst {
+		background-color: #57585b;
+		color: #aeb0b2;
+		padding-bottom: 20px;
+		padding-left: 200px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 11px;
+
+		&_statement {
+			background: url("footerdes2.png");
+			display: box;
+			visibility: visible;
+
+			&_end {
+				font-weight: 100;
+				font-size: 12px;
+				background-color: #57585b;
+				font-family: 'Open Sans', sans-serif;
+				padding-bottom: 20px;
+			}
+		}
+	}
+
+	&_social {
+		background-color: #57585b;
+		width: 100%;
+		float: right;
+
+		&_socialmedia {
+			background: url("footerdes2.png");
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+			height: 40px;
+			width: 120px;
+			margin-right: 250px;
+			padding: 0px 50px 0px 20px;
+			float: right;
+		}
+	}
+}
