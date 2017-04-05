@@ -1,0 +1,77 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<title>Log in..</title>
+	<link rel="stylesheet" type="text/css" href="LOGIN.css">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+	<script type="text/javascript"  src="jquery-3.1.1.min.js"></script>
+	
+</head>
+	<body >
+	<div class="header">
+		<ul  class="header_top">
+			<li class="header_logo"></li>
+			<li class="header_MyApps">MyApps</li>
+			<li class="header_Markitplace">Markitplace</li>
+			<li class="header_blank">  </li>
+			<li class="header_Account">Account</li>
+	       <div class="dropdown" style="float: left;"><button class="dropdown-button" style="padding-bottom: 26px; left: 0;">Riya Gairola <i class="ffdown"></i></button>
+				
+				<div class="dropdown-content">
+	    				<a href="#">My Profile</a><br>
+	    				<a href="#">My Company</a><br>
+	    				<a href="#">My Setting</a><br>
+	    				<a href="#">LogOut</a>
+	    				
+	  			</div>
+			</div>
+		</ul>
+	</div>
+	<div class="wrapper">
+		<form class="leftcolumn" id="myForm">
+		<span class="fm_heading"> Registration Page</span><br> <br>
+			First Name : <input type="text"   id="fname" class="fm_fname" method="get" > <br><br>
+			Last Name : <input type="text" name="lastname" class="fm_lname" id="lname" method="get"> <br><br>
+			Permanent Address (P) : <input type="text" name="paddress" class="fm_Padd" id="padd" method="get"> <br><br>
+			                   <input type="checkbox" name="PCaddress" class="fm_chkbox" id="pcadd" method="get"> <br><br>
+			Current Address (C) : <input type="text" name="caddress" class="fm_cadd" id="cadd" method="get"> <br><br>
+			Email Id : <input type="text" name="emailid" class="fm_id" id="myemail" method="get"> <br><br>
+			Phone No. : <input type="text" name="num" class="fm_no" id="no" method="get"> <br><br>
+			Password :<input type="password" name="password" class="fm_pass" id="pass1"> <br><br>
+			Confirm	Password :<input type="password" name="password" class="fm_cpass" id="pass2"> <br><br>
+
+			<input  type="reset" value="Reset" class="fm_Res" id="reset">
+				<input type="button"  value="Register" class="fm_Reg" id="Button" disabled>
+	   </form>
+		<div class="rightcolumn" >
+		<p class="righthead">Dashboard</p>
+		    <!--<span class="rc_heading"> DASHBOARD </span> -->
+			<h id="dashBoard" ></h>
+		</div>
+		<br>
+	</div>
+	<hr class="hr">	 
+<footer>
+   
+     <ul class="footer-list">
+       <li class="footer_image"> </li>
+     <li class="footer-list-first"> Powered by AppDirect @2009-2017</li>
+     <li class="footer-dropdown">
+       <select class="dropdown">
+       <option>Select Language</option>
+       <option>Hindi</option>
+       <option>English(United States)</option>
+       <option>Chinese</option>
+       <option>English(United Kingdom)</option>
+       <option>Spanich</option>
+       </select>
+     </li>
+     <li class="footer-list-sub"> Privacy Policy</li>
+     <li class="footer-list-sub"> Terms and Conditions</li>
+     <li class="footer-list-sub"> Contact</li>
+     </ul>
+     <script type="text/javascript"  src="domscript.js"></script>
+     </footer>
+	</body>
+
+</html>
